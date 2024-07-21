@@ -2,7 +2,7 @@
 
 We proposed the IFMA-VD framework, which innovatively uses hypergraphs to model multilateral behavior associations. This framework includes an Inter-Function Multilateral Association analysis component designed to enhance vulnerability detection performance.
 
-![image](![image](https://github.com/user-attachments/assets/e88778df-351c-4c87-a9b2-945648c14abe))
+![image](https://github.com/user-attachments/assets/4c27a639-6a87-4818-8beb-e303ff3a8552)
 
 
 ## Dataset
