@@ -1,5 +1,19 @@
 # IFMA-VD: Boosting Vulnerability Detection with Inter-Function Multilateral Association Insights
 
+## The latest and more detailed experimental results.
+
+|    Method     |           |  FFmpeg   |          |           |   Qemu    |          |           | Chrome+Debian |          |
+|:-------------:|:---------:|:---------:|:--------:|:---------:|:---------:|:--------:|:---------:|:-------------:|:--------:|
+|               | F-measure | Precision |  Recall  | F-measure | Precision |  Recall  | F-measure |   Precision   |  Recall  |
+|    Devign     |   51.9    |   52.2    |   52.1   |   53.7    |   53.1    |   53.4   |   28.4    |     24.1      |   28.7   |
+|   CodeBERT    |   53.0    | **54.9**  |   51.2   |   54.1    | **55.2**  |   52.3   |   25.4    |     23.7      |   27.4   |
+|    IVDect     |   65.5    |   50.8    |   64.6   |   57.9    |   52.5    |   64.6   |   38.8    |   **38.1**    |   39.5   |
+|    Reveal     |   62.6    |   50.6    |   82.4   |   49.3    |   45.2    |   54.0   |   26.3    |     24.4      |   28.6   |
+|    VulCNN     |   54.2    |   51.2    |   57.7   |   55.1    |   52.3    |   58.2   |   31.5    |     22.8      |   51.0   |
+|     VulBG     |   57.5    |   52.8    |   62.1   |   55.9    |   53.2    |   58.9   |   36.5    |     26.4      |   59.3   |
+| IFMA-VD(ours) | **69.1**  |   54.1    | **95.9** | **62.5**  |   53.8    | **74.4** | **46.0**  |     35.1      | **66.8** |
+|     W/T/L     |   6/0/0   |   5/0/1   |  6/0/0   |   6/0/0   |   5/0/1   |  6/0/0   |   6/0/0   |     5/0/1     |  6/0/0   |
+
 We proposed the IFMA-VD framework, which innovatively uses hypergraphs to model multilateral behavior associations. This framework includes an Inter-Function Multilateral Association analysis component designed to enhance vulnerability detection performance.
 
 ![image](https://github.com/user-attachments/assets/4c27a639-6a87-4818-8beb-e303ff3a8552)
