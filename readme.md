@@ -2,17 +2,18 @@
 
 ## The latest and more detailed experimental results.
 
-|    Method     |           |  FFmpeg   |          |           |   Qemu    |          |           | Chrome+Debian |          |
-|:-------------:|:---------:|:---------:|:--------:|:---------:|:---------:|:--------:|:---------:|:-------------:|:--------:|
-|               | F-measure | Precision |  Recall  | F-measure | Precision |  Recall  | F-measure |   Precision   |  Recall  |
-|    Devign     |   51.9    |   52.2    |   52.1   |   53.7    |   53.1    |   53.4   |   28.4    |     24.1      |   28.7   |
-|   CodeBERT    |   53.0    | **54.9**  |   51.2   |   54.1    | **55.2**  |   52.3   |   25.4    |     23.7      |   27.4   |
-|    IVDect     |   65.5    |   50.8    |   64.6   |   57.9    |   52.5    |   64.6   |   38.8    |   **38.1**    |   39.5   |
-|    Reveal     |   62.6    |   50.6    |   82.4   |   49.3    |   45.2    |   54.0   |   26.3    |     24.4      |   28.6   |
-|    VulCNN     |   54.2    |   51.2    |   57.7   |   55.1    |   52.3    |   58.2   |   31.5    |     22.8      |   51.0   |
-|     VulBG     |   57.5    |   52.8    |   62.1   |   55.9    |   53.2    |   58.9   |   36.5    |     26.4      |   59.3   |
-| IFMA-VD(ours) | **69.1**  |   54.1    | **95.9** | **62.5**  |   53.8    | **74.4** | **46.0**  |     35.1      | **66.8** |
-|     W/T/L     |   6/0/0   |   5/0/1   |  6/0/0   |   6/0/0   |   5/0/1   |  6/0/0   |   6/0/0   |     5/0/1     |  6/0/0   |
+|       Method        |           |  FFmpeg   |          |           |   Qemu    |          |           | Chrome+Debian |          |
+|:-------------------:|:---------:|:---------:|:--------:|:---------:|:---------:|:--------:|:---------:|:-------------:|:--------:|
+|                     | F-measure | Precision |  Recall  | F-measure | Precision |  Recall  | F-measure |   Precision   |  Recall  |
+|  Devign(NIPS2019)   |   51.9    |   52.2    |   52.1   |   53.7    |   53.1    |   53.4   |   28.4    |     24.1      |   28.7   |
+| CodeBERT(arXiv2020) |   53.0    |   54.9    |   51.2   |   54.1    |   55.2    |   52.3   |   25.4    |     23.7      |   27.4   |
+|   IVDect(FSE2021)   |   65.5    |   50.8    |   64.6   |   57.9    |   52.5    |   64.6   |   38.8    |     38.1      |   39.5   |
+|   Reveal(TSE2021)   |   62.6    |   50.6    |   82.4   |   49.3    |   45.2    |   54.0   |   26.3    |     24.4      |   28.6   |
+|  VulCNN(ICSE2022)   |   54.2    |   51.2    |   57.7   |   55.1    |   52.3    |   58.2   |   31.5    |     22.8      |   51.0   |
+|   VulBG(ICSE2023)   |   57.5    |   52.8    |   62.1   |   55.9    |   53.2    |   58.9   |   36.5    |     26.4      |   59.3   |
+|  PDBert(ICSE2024)   |   52.4    | **66.8**  |   43.2   |   62.4    | **65.4**  |   59.8   | **47.9**  |   **51.0**    |   45.4   |
+|    IFMA-VD(ours)    | **69.1**  |   54.1    | **95.9** | **62.5**  |   53.8    | **74.4** |   46.0    |     35.1      | **66.8** |
+|        W/T/L        |   7/0/0   |   5/0/2   |  7/0/0   |   7/0/0   |   5/0/2   |  7/0/0   |   6/0/1   |     5/0/2     |  7/0/0   |
 
 We proposed the IFMA-VD framework, which innovatively uses hypergraphs to model multilateral behavior associations. This framework includes an Inter-Function Multilateral Association analysis component designed to enhance vulnerability detection performance.
 
