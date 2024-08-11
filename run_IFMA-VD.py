@@ -12,6 +12,7 @@ import csv
 from sklearn.preprocessing import normalize
 import numpy as np
 
+
 # Load configuration
 cfg = get_config('config/config_IFMA-VD.yaml')
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
