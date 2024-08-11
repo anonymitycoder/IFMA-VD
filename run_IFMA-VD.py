@@ -195,7 +195,7 @@ def train_and_test():
     df.index = name
     df.insert(0, 'avg', avg)
 
-    # If the folder does not exist, create the folder
+    # If the folder does not exist, create the folder.
     save_path = './results/'
     if not os.path.isdir(save_path):
         os.makedirs(save_path)
