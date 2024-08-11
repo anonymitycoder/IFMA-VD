@@ -2,7 +2,7 @@
 
 We proposed the IFMA-VD framework, which innovatively uses hypergraphs to model multilateral behavior associations. This framework includes an Inter-Function Multilateral Association analysis component designed to enhance vulnerability detection performance.
 
-## The latest experimental results.
+## The latest experimental results （The value enclosed by the '=' symbol represents the best in that column.）.
 
 |      Datasets       |           |  FFmpeg   |          |           |   Qemu    |          |           | Chrome+Debian |          |
 |:-------------------:|:---------:|:---------:|:--------:|:---------:|:---------:|:--------:|:---------:|:-------------:|:--------:|
@@ -13,7 +13,7 @@ We proposed the IFMA-VD framework, which innovatively uses hypergraphs to model 
 |   Reveal(TSE2021)   |   62.6    |   50.6    |   82.4   |   49.3    |   45.2    |   54.0   |   26.3    |     24.4      |   28.6   |
 |  VulCNN(ICSE2022)   |   54.2    |   51.2    |   57.7   |   55.1    |   52.3    |   58.2   |   31.5    |     22.8      |   51.0   |
 |   VulBG(ICSE2023)   |   57.5    |   52.8    |   62.1   |   55.9    |   53.2    |   58.9   |   36.5    |     26.4      |   59.3   |
-|  PDBert(ICSE2024)   |   52.4    |  =66.8=   |   43.2   |   62.4    |  =65.4=   |   59.8   |    47.9   |    =51.0=     |   45.4   |
+|  PDBert(ICSE2024)   |   52.4    |  =66.8=   |   43.2   |   62.4    |  =65.4=   |   59.8   |   47.9    |    =51.0=     |   45.4   |
 |    IFMA-VD(ours)    |  =69.1=   |   54.1    |  =95.9=  |  =62.5=   |   53.8    |  =74.4=  |  =50.8=   |     37.5      |  =78.6=  |
 |        W/T/L        |   7/0/0   |   5/0/2   |  7/0/0   |   7/0/0   |   5/0/2   |  7/0/0   |   7/0/0   |     5/0/2     |  7/0/0   |
 
