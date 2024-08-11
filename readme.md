@@ -6,7 +6,7 @@ We proposed the IFMA-VD framework, which innovatively uses hypergraphs to model 
 
 |      Datasets       |           |  FFmpeg   |          |           |   Qemu    |          |           | Chrome+Debian |          |
 |:-------------------:|:---------:|:---------:|:--------:|:---------:|:---------:|:--------:|:---------:|:-------------:|:--------:|
-|     **Method**      | F-measure | Precision |  Recall  | F-measure | Precision |  Recall  | F-measure |   Precision   |  Recall  |
+|     **Method**      |    F1     | Precision |  Recall  |    F1     | Precision |  Recall  |    F1     |   Precision   |  Recall  |
 |  Devign(NIPS2019)   |   51.9    |   52.2    |   52.1   |   53.7    |   53.1    |   53.4   |   28.4    |     24.1      |   28.7   |
 | CodeBERT(arXiv2020) |   53.0    |   54.9    |   51.2   |   54.1    |   55.2    |   52.3   |   25.4    |     23.7      |   27.4   |
 |   IVDect(FSE2021)   |   65.5    |   50.8    |   64.6   |   57.9    |   52.5    |   64.6   |   38.8    |     38.1      |   39.5   |
