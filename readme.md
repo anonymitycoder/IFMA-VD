@@ -19,7 +19,7 @@ We proposed the IFMA-VD framework, which innovatively uses hypergraphs to model 
 
 The value enclosed by the '=' symbol represents the best in that column.
 
-<!-- ![image](https://github.com/user-attachments/assets/4c27a639-6a87-4818-8beb-e303ff3a8552) -->
+![image](https://github.com/user-attachments/assets/df4e5d26-b47e-48de-b8b7-6b56b80acb11)
 
 ## Dataset
 
