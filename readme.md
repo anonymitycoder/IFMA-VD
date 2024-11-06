@@ -4,7 +4,7 @@ We proposed the IFMA-VD framework, which innovatively uses hypergraphs to model 
 
 ![image](https://github.com/user-attachments/assets/3cff7bec-4d86-4f45-b1f4-a61c174a40ac)
 
-## The latest experimental results.
+## The experimental results.
 
 |      Datasets       | **FFmpeg** |        | **Qemu** |        | **Chrome+Debian** |        |
 |:-------------------:|:----------:|:------:|:--------:|:------:|:-----------------:|:------:|
