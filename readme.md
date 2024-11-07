@@ -17,7 +17,7 @@ We proposed the IFMA-VD framework, which innovatively uses hypergraphs to model 
 |   VulBG(ICSE2023)   |    57.5    |  62.1  |   55.9   |  58.9  |       36.5        |  59.3  |
 |  PDBert(ICSE2024)   |    52.4    |  43.2  |   62.4   |  59.8  |       47.9        |  45.4  |
 |    IFMA-VD(ours)    |   =69.1=   | =95.9= |  =62.5=  | =74.4= |      =50.8=       | =78.6= |
-|        W/T/L        |   7/0/0    | 7/0/0  |  7/0/0   | 7/0/0  |       5/0/2       | 7/0/0  |
+|        W/T/L        |   7/0/0    | 7/0/0  |  7/0/0   | 7/0/0  |       7/0/0       | 7/0/0  |
 
 The value enclosed by the '=' symbol represents the best in that column.
 
